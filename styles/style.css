@@ -459,3 +459,44 @@ height: 32px; */
     font-size: 12px;
   }
 }
+
+
+
+
+
+/*  
+*/
+/*  */
+/*  */
+/* upcoming match page  */
+.comeing-matchs{
+  padding-top: 40px;
+}
+
+.coming-match{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.comeing-matchs-title{
+  text-align: center;
+}
+
+.comeing-matchs-info{
+  text-align: center;
+}
+.upcoming-bg{
+  
+background: #DD0000;
+}
+.upcoming-text{
+  color: #ffff;
+}
+
+.blog-bg{
+  background: #DD0000;
+}
+.blog-text{
+  color: #ffff;
+}
