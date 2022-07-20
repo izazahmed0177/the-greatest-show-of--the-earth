@@ -500,3 +500,36 @@ background: #DD0000;
 .blog-text{
   color: #ffff;
 }
+.all-group-bg{
+  background: #DD0000;
+}
+.all-group-text{
+  color: #ffff;
+}
+
+/*  */
+/*  */
+/* all group style */
+.group-all-teams{}
+
+.group-all-team-detel{
+  text-align: center;
+}
+.group-title{}
+.team-name{}
+.group-team{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding-top: 10px;
+margin-top: 5px;
+}
+.group-team span{}
+.group-team img{}
+
+.team-number{
+  padding-left: 20px;
+}
+.country-name{}
+
