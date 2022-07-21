@@ -337,7 +337,7 @@ height: 32px; */
   }
   /* header section */
   .header-item {
-    background-color: #a77e7e;
+    /* background-color: #a77e7e; */
     /* height: 100vh;
     width: 100%;
     grid-template-columns: auto; */
@@ -532,4 +532,49 @@ margin-top: 5px;
   padding-left: 20px;
 }
 .country-name{}
+
+/* some degin add */
+.header-title{
+  background-image: url(giphy.gif);
+background-size: cover;
+color: transparent;
+-moz-background-clip: text;
+  -webkit-background-clip: text;
+
+}
+/* animation add  */
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.header-item-description{
+  background-image: linear-gradient(    -225deg,    #231557 0%,    #44107a 29%,    #ff1361 67%,    #fff800 100%  );
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear 6s infinite;
+  -webkit-animation: textclip 5s linear 6s infinite;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+}
+
+.footer-title h1{
+  background-image: linear-gradient(    -225deg,    #231557 0%,    #44107a 29%,    #ff1361 67%,    #fff800 100%  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear 6s infinite;
+  -webkit-animation: textclip 5s linear 6s infinite;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 
